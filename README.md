@@ -1,4 +1,4 @@
-The code is based on Maximilian Schwarzmüller with some changes and code styling improvements.
+The code is based on Maximilian Schwarzmüller course in Udemy with some changes and code styling improvements.
 
 It uses Expo starter and some additional libraries, including custom ES Lint config. 
 To start the app you will need the Expo application or Android studio emulator.
