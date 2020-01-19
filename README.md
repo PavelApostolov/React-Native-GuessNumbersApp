@@ -3,7 +3,9 @@ The code is based on Maximilian Schwarzmüller with some changes and code stylin
 It uses Expo starter and some additional libraries, including custom ES Lint config. 
 To start the app you will need the Expo application or Android studio emulator.
 
+```
 Run:
-npm install
-npm start
-scan the QR code on the Expo app or run it on the emulator
+> npm install
+> npm start
+> scan the QR code on the Expo app or run it on the emulator
+```
