@@ -18,18 +18,19 @@
     "react/jsx-filename-extension": "off",
     "prettier/prettier": "warn",
     "quotes": [
-      "error",
+      "warn",
       "double",
       {
         "avoidEscape": true
       }
     ],
     "react/jsx-props-no-spreading": "off",
+    "react/destructuring-assignment": "warn",
     "no-unused-vars": "warn",
-    "react-native/no-unused-styles": 2,
+    "react-native/no-unused-styles": "warn",
     "react-native/split-platform-components": 2,
     "react-native/no-inline-styles": 2,
-    "react-native/no-color-literals": 2,
+    "react-native/no-color-literals": "warn",
     "react-native/no-raw-text": 2,
     "react-native/no-single-element-style-arrays": 2,
     "react/prop-types": "warn",

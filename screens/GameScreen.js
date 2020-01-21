@@ -4,7 +4,6 @@ import {
   Text,
   StyleSheet,
   Alert,
-  ScrollView,
   FlatList,
   Dimensions
 } from "react-native";
@@ -99,7 +98,7 @@ const GameScreen = ({ userChoice, onGameOver }) => {
       <View style={styles.screen}>
         <Text style={DefaultStyles.title}>Opponent&apos;s Guess</Text>
 
-        <View styles={styles.controls}>
+        <View style={styles.controls}>
           <MainButton onPress={nextGuessHandler("lower")}>
             <Ionicons name="md-remove" size={24} color="white" />
           </MainButton>
